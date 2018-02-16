@@ -43,6 +43,7 @@ class Table
 			maxRows++;
 			countY=0;
 			}
+			maxRows--;
 		}
 				
 
