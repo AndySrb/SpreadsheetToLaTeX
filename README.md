@@ -18,10 +18,10 @@ If program asks gives option to change anything just leave it as default and con
 4. Copy that file you saved in .csv file format and paste in same folder where is located compiled file "run".
 
 5. Open terminal cd into directory where is program located and run command:
-run.out
+./run
 
 6. Just enter file name with ".csv" at the end and inport that code into your latex file.
 
-
+Tested od: libreoffice,SC-IM.
 
 I need someone to make makefile and ability to call it and use it as normal linux package with headers file that will output its latex code.
