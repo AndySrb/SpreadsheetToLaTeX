@@ -1,6 +1,8 @@
 # SpreadsheetToLaTeX
 A generic c++ program that converts spreadsheet (.csv) file to LaTeX code.
 
+![alt text](https://raw.githubusercontent.com/AndySrb/SpreadsheetToLaTeX/master/pictures/example.png)
+
 0. Clone repository.
 
 1. You have to do is unzip file with command:
