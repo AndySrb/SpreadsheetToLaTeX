@@ -15,7 +15,7 @@ or you can use tool that you got pre-installed in your distro.
 
 2. Compile it manualy with command:
 
-g++ --std:c++14 main.cpp -o SpreadsheetToLaTeX
+g++ --std=c++14 main.cpp -o SpreadsheetToLaTeX
 
 
 3. Install it with command (this is not linked with your package menager so if you need to upgrade to new version you have to remove it manualy)
