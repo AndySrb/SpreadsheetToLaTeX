@@ -1,5 +1,4 @@
 #include "convert.h"
-
 Convert::Convert(const Table& tab)
 {
 	int tempCol = 0;

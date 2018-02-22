@@ -10,6 +10,6 @@ class Convert
 	public:	
 	Convert(const Table& tab);
 	void toTex(const Table& tab);
-	friend class Table;
+	friend class Plot;
 };
 #endif

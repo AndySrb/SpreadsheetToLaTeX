@@ -20,10 +20,10 @@ class Table
 		int colCount = 0;
 		int countX = 0;
 		int countY = 0;
+		std::string nameFile;
 	public:
 		Table()
 		{
-			std::string nameFile;
 	
 			std::cout << "Enter spreadsheet file (.csv): ";
 			std::cin >> nameFile;
@@ -42,6 +42,7 @@ class Table
 		void copy_part(int pos1, int pos2);
 		void print();
 		friend class Convert;
+		friend class Plot;
 
 };	
 #endif
