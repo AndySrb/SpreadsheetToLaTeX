@@ -11,12 +11,15 @@
 
 
 
-int main()
+int main(int arcv, char** arcc)
 {
 	bool plotGraph = false;
 	char menu;
 	int x,y;
-	Table table;
+	arcc++;
+	if (arcv == 2)
+	{
+	Table table(*arcc);
 	table.start();
 //	table.print();
 	Convert convert(table);
@@ -56,7 +59,13 @@ int main()
 	plot.convertToPlot(table,convert);
 	
 	}
+	}
+	else if (arcv == 1)
+	std::cout << "You have to include file" << std::endl;
+	else
+	std::cout << "Too many arguments" << std::endl;
 	return 0;
+
 //	std::shared_ptr<Table> table = std::make_shared<Table>();
 //	table->start();	
 //	table->print();

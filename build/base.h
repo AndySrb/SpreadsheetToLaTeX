@@ -33,10 +33,23 @@ class Table
 				std::cout << "Failed to open " << nameFile << std::endl << "Program will end";
 				exit(1);
 			}
-			
-
 		
 		}
+		
+
+		Table(std::string name)
+		{
+			nameFile = name;
+	
+			fileIn.open(nameFile.c_str());
+			if (fileIn.fail())
+			{
+				std::cout << "Failed to open " << nameFile << std::endl << "Program will end";
+				exit(1);
+			}
+		
+		}
+		
 		void start();
 		void store();
 		void copy_part(int pos1, int pos2);
