@@ -110,5 +110,6 @@ void Plot::convertToPlot(const Table &tab, const Convert &con)
 	}
 	fileOut << "};" << std::endl << "\\legend{" << tab.nameFile << "}\n" << "\\end{axis}\n";
 	fileOut << "\\end{tikzpicture}";
+	std::cout << "Dont forget to include \"pgfplots\" "
 }
 
